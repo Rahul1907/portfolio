@@ -41,7 +41,7 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a href="https://drive.google.com/file/d/1S6vXHShTRIu-4RiNAUr8RjW6Rh7vOfLw/view?usp=sharing" target="_blank" style={{ fontFamily: "DM Mono, monospace", fontSize: 12, color: "#58A6FF", textDecoration: "none", border: "1px solid rgba(88,166,255,0.4)", padding: "6px 16px", borderRadius: 4, transition: "all 0.2s" }}
+          <a href="https://drive.google.com/file/d/1QdR8UWaNkhZniqVb8MXelJGB_46QzRg-/view?usp=sharing" target="_blank" style={{ fontFamily: "DM Mono, monospace", fontSize: 12, color: "#58A6FF", textDecoration: "none", border: "1px solid rgba(88,166,255,0.4)", padding: "6px 16px", borderRadius: 4, transition: "all 0.2s" }}
             onMouseEnter={e => { e.currentTarget.style.background = "rgba(88,166,255,0.1)"; }}
             onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}>
             resume ↗
