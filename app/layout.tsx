@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Rahul Khanchandani — Senior Frontend Engineer",
-  description: "Senior Frontend Engineer specialising in React, Next.js, TypeScript and high-performance web applications.",
-  keywords: ["Frontend Engineer", "React", "Next.js", "TypeScript", "Rahul Khanchandani"],
+  title: "Rahul Khanchandani — Senior Full Stack Engineer",
+  description: "Senior Full Stack Engineer specialising in React, Next.js, TypeScript, Node.js, and modern web architectures.",
+  keywords: ["Full Stack Engineer", "React", "Next.js", "TypeScript", "Node.js", "Express", "DynamoDB", "AWS SQS", "Rahul Khanchandani"],
   openGraph: {
-    title: "Rahul Khanchandani — Senior Frontend Engineer",
-    description: "Building scalable, high-performance web applications with React, Next.js, and TypeScript.",
+    title: "Rahul Khanchandani — Senior Full Stack Engineer",
+    description: "Building scalable, high-performance web applications with React, Next.js, Node.js, and TypeScript.",
     type: "website",
   },
 };

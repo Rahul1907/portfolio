@@ -12,13 +12,13 @@ export default function About() {
               I build things for the web — carefully.
             </h2>
             <p style={{ color: "#8B949E", lineHeight: 1.9, marginBottom: 20, fontSize: 14 }}>
-              I'm a Senior Frontend Engineer based in Ahmedabad, India with 6+ years of experience shipping complex web applications for SaaS platforms, e-commerce, and enterprise clients.
+              I'm a Senior Full Stack Engineer based in Ahmedabad, India with 6+ years of experience building scalable, high-performance web applications across frontend and backend technologies.
             </p>
             <p style={{ color: "#8B949E", lineHeight: 1.9, marginBottom: 20, fontSize: 14 }}>
-              I care about the details that most engineers skip — Core Web Vitals, WCAG accessibility, design system consistency, and test coverage that gives teams confidence to ship fast without breaking things.
+              I care about the details that make systems robust and fast — from frontend performance optimization (Lighthouse 85+, Core Web Vitals) and WCAG accessibility to backend API design, database indexing, structured logging, and automated testing (90%+ coverage).
             </p>
             <p style={{ color: "#8B949E", lineHeight: 1.9, fontSize: 14 }}>
-              Currently at <span style={{ color: "#E6EDF3" }}>AppVentory</span>, where I lead frontend architecture across micro-frontend product verticals and build real-time analytics systems. I also integrate AI tools like Claude and Codex into day-to-day development workflows.
+              Currently at <span style={{ color: "#E6EDF3" }}>AppVentory</span>, where I own end-to-end full-stack features, build real-time analytics dashboards, design queue-based architectures, and mentor junior engineers. I also integrate AI-assisted development tools like Claude and Codex to accelerate delivery.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function About() {
             {[
               { label: "Location", value: "Ahmedabad, India" },
               { label: "Experience", value: "6+ years" },
-              { label: "Current role", value: "Senior Software Engineer @ AppVentory" },
+              { label: "Current role", value: "Senior Full Stack Engineer @ AppVentory" },
               { label: "Education", value: "MSc (IT) DAIICT & BCA Gujarat University" },
               { label: "Open to", value: "Full-time & Contract roles" },
             ].map(({ label, value }) => (

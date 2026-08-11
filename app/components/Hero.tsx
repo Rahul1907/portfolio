@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const roles = ["Senior Frontend Engineer", "React & Next.js Specialist", "TypeScript Expert", "Performance Obsessive"];
+const roles = ["Senior Full Stack Engineer", "React & Next.js Specialist", "Node.js & TypeScript Expert", "Performance Obsessive"];
 
 export default function Hero() {
   const [roleIdx, setRoleIdx] = useState(0);
@@ -65,7 +65,7 @@ export default function Hero() {
         </div>
 
         <p style={{ fontSize: 15, color: "#8B949E", maxWidth: 520, lineHeight: 1.8, marginBottom: 40 }}>
-          6+ years building high-performance web applications that ship to millions. Specialising in React, Next.js, and micro-frontend architecture. Based in Ahmedabad, India.
+          Senior Full Stack Engineer with 6+ years of experience building scalable, high-performance web applications across frontend and backend technologies. Specialising in React, Next.js, Node.js, and modern web architectures.
         </p>
 
         <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
@@ -82,7 +82,7 @@ export default function Hero() {
         </div>
 
         <div style={{ display: "flex", gap: 40, marginTop: 80, paddingTop: 40, borderTop: "1px solid #21262D", flexWrap: "wrap" }}>
-          {[["6+", "Years experience"], ["40%", "Bug reduction"], ["85+", "Lighthouse score"], ["50M+", "Users reached"]].map(([num, label]) => (
+          {[["6+", "Years experience"], ["40%", "Bug reduction"], ["85+", "Lighthouse score"], ["<200ms", "API latency"]].map(([num, label]) => (
             <div key={label}>
               <div style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: 28, color: "#E6EDF3", lineHeight: 1 }}>{num}</div>
               <div style={{ fontFamily: "DM Mono, monospace", fontSize: 11, color: "#484F58", marginTop: 4, letterSpacing: "0.05em" }}>{label}</div>
